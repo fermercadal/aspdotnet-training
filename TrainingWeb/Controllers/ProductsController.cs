@@ -25,5 +25,14 @@ namespace TrainingWeb.Controllers
         {
             return ProductService.GetProducts();
         }
+
+        //[HttpPatch] "[FromBody]"
+        [Route("Rate")]
+        [HttpGet]
+        public ActionResult Get([FromQuery] string ProductId, int Rating)
+        {
+            ProductService.AddRating(ProductId, Rating);
+            return Ok();
+        }
     }
 }
