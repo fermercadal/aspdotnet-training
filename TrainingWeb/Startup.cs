@@ -28,6 +28,7 @@ namespace TrainingWeb
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddServerSideBlazor();
             services.AddControllers();
             services.AddTransient<JsonFileProductService>();
         }
@@ -57,6 +58,7 @@ namespace TrainingWeb
             {
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
+                endpoints.MapBlazorHub();
                 // MANUALLY made simple API, not the best way
                 //endpoints.MapGet("/products", (context) =>
                 //{
