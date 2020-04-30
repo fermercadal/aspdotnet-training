@@ -9,13 +9,13 @@ using TrainingWeb.Services;
 
 namespace TrainingWeb.Controllers
 {
-    [Route("[controller]")]
     [ApiController]
+    [Route("[controller]")]
     public class ProductsController : ControllerBase
     {
         public ProductsController(JsonFileProductService productService)
         {
-            this.ProductService = productService;
+            ProductService = productService;
         }
 
         public JsonFileProductService ProductService { get; }
@@ -26,13 +26,18 @@ namespace TrainingWeb.Controllers
             return ProductService.GetProducts();
         }
 
-        //[HttpPatch] "[FromBody]"
-        [Route("Rate")]
-        [HttpGet]
-        public ActionResult Get([FromQuery] string ProductId, int Rating)
+        [HttpPatch]
+        public ActionResult Patch([FromBody] RatingRequest request)
         {
-            ProductService.AddRating(ProductId, Rating);
+            ProductService.AddRating(request.ProductId, request.Rating);
+
             return Ok();
+        }
+
+        public class RatingRequest
+        {
+            public string ProductId { get; set; }
+            public int Rating { get; set; }
         }
     }
 }
