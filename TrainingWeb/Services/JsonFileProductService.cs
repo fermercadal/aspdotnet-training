@@ -37,23 +37,20 @@ namespace TrainingWeb.Services
 
         public void AddRating(string productId, int rating)
         {
-            IEnumerable<Product> products = GetProducts();
+            var products = GetProducts();
 
-            //LINQ
-            var query = products.First(x => x.Id == productId);
-
-            if(query.Ratings == null)
+            if (products.First(x => x.Id == productId).Ratings == null)
             {
-                query.Ratings = new int[] { rating };
+                products.First(x => x.Id == productId).Ratings = new int[] { rating };
             }
             else
             {
-                var ratings = query.Ratings.ToList();
+                var ratings = products.First(x => x.Id == productId).Ratings.ToList();
                 ratings.Add(rating);
-                query.Ratings = ratings.ToArray();
+                products.First(x => x.Id == productId).Ratings = ratings.ToArray();
             }
 
-            using(var outputStream = File.OpenWrite(JsonFileName))
+            using (var outputStream = File.OpenWrite(JsonFileName))
             {
                 JsonSerializer.Serialize<IEnumerable<Product>>(
                     new Utf8JsonWriter(outputStream, new JsonWriterOptions
