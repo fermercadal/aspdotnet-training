@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\_dotnet\\TrainingWeb\\TrainingWeb\\TrainingWeb.csproj": {}
+    "D:\\Code\\_dotnet\\aspdotnet-training\\TrainingWeb\\TrainingWeb.csproj": {}
   },
   "projects": {
-    "D:\\Code\\_dotnet\\TrainingWeb\\TrainingWeb\\TrainingWeb.csproj": {
+    "D:\\Code\\_dotnet\\aspdotnet-training\\TrainingWeb\\TrainingWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\_dotnet\\TrainingWeb\\TrainingWeb\\TrainingWeb.csproj",
+        "projectUniqueName": "D:\\Code\\_dotnet\\aspdotnet-training\\TrainingWeb\\TrainingWeb.csproj",
         "projectName": "TrainingWeb",
-        "projectPath": "D:\\Code\\_dotnet\\TrainingWeb\\TrainingWeb\\TrainingWeb.csproj",
+        "projectPath": "D:\\Code\\_dotnet\\aspdotnet-training\\TrainingWeb\\TrainingWeb.csproj",
         "packagesPath": "C:\\Users\\Fernando Mercadal\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\_dotnet\\TrainingWeb\\TrainingWeb\\obj\\",
+        "outputPath": "D:\\Code\\_dotnet\\aspdotnet-training\\TrainingWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

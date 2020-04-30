@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RBXpgUCWF1pE/DsSayOP4yLMvGYxICKEbkLDb/zTNwZEibqknwSbH2XkDyIl6VP05HNu9Zf1EsdecuEV+1Q6ZQ==",
+  "dgSpecHash": "oGGst5CQFj+dQ4Eb7u8o4iFZpVPWDAvoEMRjr+sk5ol9CJaMmGQpT8Wn1gEhDF1l83DmgYcQAk3d0htNPBdpNA==",
   "success": true,
-  "projectFilePath": "D:\\Code\\_dotnet\\TrainingWeb\\TrainingWeb\\TrainingWeb.csproj",
+  "projectFilePath": "D:\\Code\\_dotnet\\aspdotnet-training\\TrainingWeb\\TrainingWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fernando Mercadal\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Fernando Mercadal\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
