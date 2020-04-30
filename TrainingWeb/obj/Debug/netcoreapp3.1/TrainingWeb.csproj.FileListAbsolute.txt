@@ -108,3 +108,7 @@ D:\Code\_dotnet\TrainingWeb\TrainingWeb\bin\Debug\netcoreapp3.1\zh-Hans\Microsof
 D:\Code\_dotnet\TrainingWeb\TrainingWeb\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Code\_dotnet\TrainingWeb\TrainingWeb\obj\Debug\netcoreapp3.1\TrainingWeb.csproj.CoreCompileInputs.cache
 D:\Code\_dotnet\TrainingWeb\TrainingWeb\obj\Debug\netcoreapp3.1\TrainingWeb.MvcApplicationPartsAssemblyInfo.cache
+D:\Code\_dotnet\TrainingWeb\TrainingWeb\obj\Debug\netcoreapp3.1\TrainingWeb.RazorComponent.input.cache
+D:\Code\_dotnet\TrainingWeb\TrainingWeb\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\ProductList.razor.g.cs
+D:\Code\_dotnet\TrainingWeb\TrainingWeb\obj\Debug\netcoreapp3.1\RazorDeclaration\TrainingWeb.dll
+D:\Code\_dotnet\TrainingWeb\TrainingWeb\obj\Debug\netcoreapp3.1\Razor\Components\ProductList.razor.g.cs
